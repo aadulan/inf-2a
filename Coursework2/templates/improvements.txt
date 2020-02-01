@@ -1,0 +1,17 @@
+Part E: Limitations of the System
+
+Looking at the implementation of the the grammar. It seems that questions which
+make grammatical sense do not get answered. This is because it seems that the
+program cannot handle complex sentences. This then means the simple questions are
+unable to get parsed which means that they do not get answered.
+
+$$ Jack is a cool duck.
+  OK
+$$ Who is cool?
+  Eh??
+$$ Who is a duck?
+  Eh??
+
+Here is a example of this in which a complex phrase is processed but the question
+asked while being simple is unable to be answered. This means an improvement can
+be the program understands more complex sentences.
